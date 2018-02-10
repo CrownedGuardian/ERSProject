@@ -1,0 +1,18 @@
+<div id="mainBody"class="container">
+	<h1 style='text-align: center;'>Add Reimbursement</h1>
+	<div class="input-group">
+  		<span class="input-group-addon">$</span>
+  		<input type="text" id="amount" class="form-control" aria-label="Amount (to the nearest dollar)" name="amount"/>
+  		<span class="input-group-addon">.00</span>
+		<select
+			class="form-control" id="type" name="getType">
+			<option value="0">Select Reimbursement Type</option>
+			<option value="1">Lodging</option>
+			<option value="2">Travel</option>
+			<option value="3">Food</option>
+			<option value="4">Other</option>
+		</select>
+	</div>
+	<input type="text" id="description" class="form-control" aria-label="Reimbursement Description" name="description" placeholder="Enter reimbursement description"/>
+	<button id="addReimbursementButton" class="btn btn-lg btn-primary btn-block">Submit Request</button>
+</div>

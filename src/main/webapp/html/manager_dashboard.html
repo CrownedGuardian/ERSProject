@@ -1,0 +1,42 @@
+<div class="container-fluid">
+	<div>
+		<div id="mainBody">
+			<h1 style='text-align: center;'>Reimbursements</h1>
+			<div class='container' id="defaultMessage">
+				<div class='jumbotron'>
+					<h1>No reimbursements in your box</h1>
+				</div>
+			</div>
+			<div id="tableSection">
+				<label for="sel1" id="filterLabel">Filter By Status</label>
+				<select
+					class="form-control" id="filter" name="filterBy">
+					<option value="UNKNOWN">Select One</option>
+					<option value="PENDING">Pending</option>
+					<option value="APPROVED">Approved</option>
+					<option value="DENIED">Denied</option>
+				</select>
+
+				<div class="table-responsive">
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>Reimbursement ID</th>
+								<th>Amount</th>
+								<th>Time Submitted</th>
+								<th>Time Resolved</th>
+								<th>Description</th>
+								<th>Author ID</th>
+								<th>Resolver ID</th>
+								<th>Type</th>
+								<th>Approve or Deny</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
